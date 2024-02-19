@@ -1,0 +1,85 @@
+/*GLOBALE*/
+body {
+    height: 100vh;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.add-to-favorite-btn {
+    width: 10%;
+    border-radius: 0 !important;
+}
+
+.container-login {
+    margin-right: 20rem !important;
+    margin-left: 20rem !important;
+}
+.input-no-radius {
+    border-radius: 0 !important;
+}
+
+.general-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6930e1;
+}
+
+.general-link:hover {
+    text-decoration: underline;
+}
+.circle {
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.logo-app {
+    font-family: "Kalam", cursive;
+}
+
+/* SINGOLO PRODOTTO */
+.select-size {
+    border-radius: 0 !important;
+    border: 1px solid #292929 !important;
+}
+
+.select-size:focus {
+    border-color: #292929 !important;
+    box-shadow: 0 0 0 0.1rem #292929;
+}
+
+.add-to-cart-btn {
+    width: 89%;
+    border-radius: 0 !important;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #fff !important;
+    color: #212529 !important;
+    border: 1px solid #292929 !important;
+}
+
+.add-to-favorite-btn {
+    width: 10%;
+    border-radius: 0 !important;
+}
+
+.card-shipping {
+    border-radius: 0 !important;
+}
+
+.general-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6930e1;
+}
+
+.general-link:hover {
+    text-decoration: underline;
+}
