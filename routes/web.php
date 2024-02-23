@@ -26,8 +26,9 @@ Route::get('/jewelery', [ApiProductsController::class, 'jewelery']);
 Route::get('/electronics', [ApiProductsController::class, 'electronics']);
 Route::get("/product/{product}", [ApiProductsController::class, 'product'])->name("product.single");
 
-// carrello view
-Route::get("/cart", [CartController::class, "show"])->middleware(['auth', 'verified'])->name("cart.show");
+// carrello con lista prodotti
+Route::get("/cart", [CartController::class, "index"])->middleware(['auth', 'verified'])->name("cart.index");
+
 
 // aggiungi al carrello
 // Route::get("/add-to-cart/{product}", [CartController::class, "addToCart"]);

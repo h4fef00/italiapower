@@ -1,7 +1,10 @@
 @extends('welcome')
 @section('content')
     {{-- carrello se vuoto --}}
-    {{-- <div class="text-center p-5">
+    @if (Cart->)
+        
+    @endif
+    <div class="text-center p-5">
         <div>
             <div class="cart-icon-container">
                 <img src="{{ asset('images/cart.png') }}" alt="">
@@ -17,7 +20,7 @@
                 <a href="/" class="btn btn-dark add-to-favorite-btn w-75">Continua lo shopping</a>
             </div>
         </div>
-    </div> --}}
+    </div>
     {{-- carrello se ha product>=1 --}}
     <div class="px-5 py-3 bg-body-tertiary">
         <div class="row mx-0">
